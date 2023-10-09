@@ -1,0 +1,44 @@
+[
+    { 
+        "id":1,
+        "name": "John Doe",
+        "description": "The iPhone 15 Pro Max is a game-changer! The camera's low-light performance is unmatched, and the ProMotion display is buttery-smooth. I'm loving it!",
+        "img": "https://i.ibb.co/VNMmM9h/Johnny-Depp-2017.webp"
+    },
+    {
+        "id":2,
+        "name": "Jane Smith",
+        "description": "The iPhone 13 Pro Max is the perfect budget-friendly option. It's fast, has a great camera, and the compact size is ideal for one-handed use.",
+        "img": "https://i.ibb.co/KXCcKNF/American-actor-Leonardo-Di-Caprio-2016.webp"
+    },
+    {
+        "id":3,
+        "name": "Sam Johnson",
+        "description": "The Apple Watch Series 7 is a game-changer in the world of smartwatches. The bigger display is gorgeous, and the health features are impressive.",
+        "img": "https://i.ibb.co/fDp3zMk/images.jpg"
+    },
+    {
+        "id":4,
+        "name": "Emily Brown",
+        "description": "I've been using the Apple Watch SE for a month now, and it's exceeded my expectations. It's fast, lightweight, and the battery life is fantastic.",
+        "img": "https://i.ibb.co/Dk86zhR/Emma-Watson-Getty-Images-619546914.jpg"
+    },
+    {
+        "id":5,
+        "name": "Michael Wilson",
+        "description": "The MacBook Pro 16-inch is a powerhouse! The large display is a joy to work on, and the performance is unmatched. A professional's dream!",
+        "img": "https://i.ibb.co/ssSt8vP/download.jpg"
+    },
+    {
+        "id":6,
+        "name": "Ella Davis",
+        "description": "The MacBook Air is sleek and ultraportable. It's perfect for on-the-go work, and the M1 chip makes everything feel lightning-fast.",
+        "img": "https://i.ibb.co/6ZwPRFH/download-1.jpg"
+    }
+      
+      
+       
+      
+
+      
+]
