@@ -6,7 +6,7 @@ const AirPods = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-4 mx-auto gap-5 container">
+            <div className="grid grid-cols-1 lg:grid-cols-4 mx-auto gap-5 container">
             {
                 products.map(pod=> 
                     <div className="rounded-xl shadow-2xl" key={pod.id}>

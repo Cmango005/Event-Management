@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom";
 const Review = () => {
     const customer =useLoaderData();
     return (
-        <div className="grid grid-cols-3 gap-10 mx-auto container mb-5">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mx-auto container mb-5">
             {
                 customer.map(user=> <div key={user.id}>
                   <img className="w-72 h-56 ml-10 rounded-full" src={user.img} alt="" />
