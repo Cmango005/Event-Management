@@ -1,0 +1,18 @@
+[
+    {
+        "id": 101,
+        "name": "MacBook Air 16inch M2 Max Chip",
+        "img": "https://i.ibb.co/LQFsXNF/NEWApple-Macbook-Prowith-M1-Pro-Chip14-Inch-Laptop2021-Model-MKGQ3-LL-A-16-GB-1-TBSSD-custommacbd.webp",
+        "price": "1599$",
+        "storage": "8TB",
+        "description": "The MacBook Air 16 with the M2 Max Chip delivers exceptional speed and storage for your computing needs."
+      },
+      {
+        "id": 102,
+        "name": "MacBook Air 14inch M2 Chip",
+        "img": "https://i.ibb.co/Qmb0tFQ/Mac-Book-Air-M2-Space-Gray-5005.jpg",
+        "price": "1499$",
+        "storage": "2TB",
+        "description": "Experience the compact yet powerful MacBook Air 15 with the M2 Chip for smooth and efficient performance."
+      }
+]

@@ -10,21 +10,21 @@ const Home = () => {
               <i className="font-bold text-2xl">Latest iPhone 15 Has Been Released .Buy Now.</i>
             </Marquee>
             </div>
-            <section className=" mx-auto container">
+            <section className=" mx-auto mb-10 container">
                    <Link to="/products">
                    <div className="service  bg-no-repeat">
-                    <p className="text-pink-400 p-6 ml-96 font-extrabold text-lg text-center "><i>Click to See Our Latest and Old Products</i></p>
+                    <p className="text-pink-400 p-6 ml-96 font-extrabold text-lg text-center "><i className="ml-6 p-6 bg-slate-200 rounded-lg">Click to See Our Latest Gadgets</i></p>
                     </div>
                    </Link>
             </section>
-            <section className="h-screen  mx-auto container">
+            <section className=" mx-auto mb-10 container">
                 <Link to="/review">
                     <div className="review   bg-no-repeat">
                     <p className="text-black p-5 font-extrabold text-lg text-center "><i>Click to See Our Happy Customer</i></p>
                     </div>
                 </Link>
             </section>
-            <section className="h-screen  mx-auto container">
+            <section className=" mx-auto mb-10 container">
                 <Link to='https://www.facebook.com/apple'>
                 <div className="find-facebook h-screen bg-no-repeat">
                 <p className="text-white p-5 font-extrabold text-2xl text-center ">Click to Find Us on Facebook</p>

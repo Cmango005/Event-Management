@@ -30,59 +30,6 @@
       "storage": "128 GB,256 GB,526 GB,1 TB",
       "price": "1099$,1299$,1399$,1599$",
       "description": "Experience the ultimate iPhone 15 Pro Max with massive storage and unbeatable performance for power users."
-    },
-    {
-      "id": 101,
-      "name": "MacBook Air 16inch M2 Max Chip",
-      "img": "https://i.ibb.co/LQFsXNF/NEWApple-Macbook-Prowith-M1-Pro-Chip14-Inch-Laptop2021-Model-MKGQ3-LL-A-16-GB-1-TBSSD-custommacbd.webp",
-      "price": "1599$",
-      "storage": "8TB",
-      "description": "The MacBook Air 16 with the M2 Max Chip delivers exceptional speed and storage for your computing needs."
-    },
-    {
-      "id": 102,
-      "name": "MacBook Air 14inch M2 Chip",
-      "img": "https://i.ibb.co/Qmb0tFQ/Mac-Book-Air-M2-Space-Gray-5005.jpg",
-      "price": "1499$",
-      "storage": "2TB",
-      "description": "Experience the compact yet powerful MacBook Air 15 with the M2 Chip for smooth and efficient performance."
-    },
-    {
-      "id": 201,
-      "name": "iPad Pro 11inch M2 Chip",
-      "img": "https://i.ibb.co/z59PpnR/ipad-pro-11-select-wifi-spacegray-202210.jpg",
-      "price": "1499$",
-      "storage": "2TB",
-      "description": "The iPad Pro 11 with the M2 Chip offers impressive power and ample storage, perfect for creative professionals."
-    },
-    {
-      "id": 202,
-      "name": "iPad Air 10inch M1 Chip",
-      "img": "ipad2.jpg",
-      "price": "1299$",
-      "storage": "2TB",
-      "description": "The iPad Air 10 features the M1 Chip for exceptional performance and plenty of storage for your digital life."
-    },
-    {
-      "id": 301,
-      "name": "Apple Watch Series 9",
-      "img": "watch1.jpg",
-      "price": "399$",
-      "description": "Stay connected and track your fitness with the Apple Watch Series 9, your perfect daily companion."
-    },
-    {
-      "id": 302,
-      "name": "Apple Watch ULTRA 2",
-      "img": "watch2.jpg",
-      "price": "799$",
-      "description": "Experience the future of smartwatches with the Apple Watch ULTRA 2, packed with advanced features."
-    },
-    {
-      "id": 501,
-      "name": "AirPods Max",
-      "img": "airpods.jpg",
-      "price": "549$",
-      "description": "Immerse yourself in premium audio quality with the AirPods Max, perfect for music and entertainment lovers."
     }
   ]
   

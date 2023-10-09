@@ -1,0 +1,18 @@
+[
+    {
+        "id": 201,
+        "name": "iPad Pro 11inch M2 Chip",
+        "img": "https://i.ibb.co/z59PpnR/ipad-pro-11-select-wifi-spacegray-202210.jpg",
+        "price": "1499$",
+        "storage": "2TB",
+        "description": "The iPad Pro 11 with the M2 Chip offers impressive power and ample storage, perfect for creative professionals."
+      },
+      {
+        "id": 202,
+        "name": "iPad Air 10inch M1 Chip",
+        "img": "https://i.ibb.co/T4hdb7r/apple-ipad-air-late-2020-109-inch-64gb-wifi-11611466436.webp",
+        "price": "1299$",
+        "storage": "2TB",
+        "description": "The iPad Air 10 features the M1 Chip for exceptional performance and plenty of storage for your digital life."
+      }
+]

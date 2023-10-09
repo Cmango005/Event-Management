@@ -1,0 +1,16 @@
+[
+    {
+        "id": 301,
+        "name": "Apple Watch Series 9",
+        "img": "https://i.ibb.co/vzDJMtc/Screenshot-2023-09-13-at-3-38-52-PM.webp",
+        "price": "399$",
+        "description": "Stay connected and track your fitness with the Apple Watch Series 9, your perfect daily companion."
+      },
+      {
+        "id": 302,
+        "name": "Apple Watch ULTRA 2",
+        "img": "https://i.ibb.co/yBN4nYH/apple-watch-ultra-2-2.webp",
+        "price": "799$",
+        "description": "Experience the future of smartwatches with the Apple Watch ULTRA 2, packed with advanced features."
+      }
+]
