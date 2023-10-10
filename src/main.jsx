@@ -61,11 +61,11 @@ const router = createBrowserRouter([
         loader: () => fetch('/review.json')
       },
       {
-        path: "/products",
+        path: "/service",
         element: <Products></Products>
       },
       {
-        path: "/latest",
+        path: "/iphone",
         element: <Latest></Latest>,
         loader: () => fetch("/latest.json")
       },

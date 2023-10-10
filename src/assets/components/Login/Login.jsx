@@ -2,10 +2,13 @@
 import { useContext } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
-
+import { FcGoogle } from 'react-icons/fc';
+import { GoogleAuthProvider } from "firebase/auth";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
-  const {logIn}=useContext(AuthContext);
+  const {logIn,googleSignIn}=useContext(AuthContext);
   const location =useLocation();
   const navigate = useNavigate();
   const handleLogin= e =>{
@@ -16,12 +19,25 @@ const Login = () => {
     logIn(email,password)
     .then(result=>{
       console.log(result.user)
+      
       navigate(location?.state ? location.state : "/")
     })
     .catch(error =>{
       console.log(error)
     })
   }
+  const handleSignInGoogle =() =>{
+    const provider = new GoogleAuthProvider();
+
+    googleSignIn(provider)
+    .then(Result=>{
+       console.log(Result);
+       toast('sign in with google successful')
+       navigate(location?.state ? location.state : "/")
+    })
+    .catch()
+}
+
     return (
         <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
@@ -48,7 +64,12 @@ const Login = () => {
         </div>
       </form>
       
+      <div>
       <p className="p-4">Haven't Account.Register Now<NavLink to='/register'><button className="btn btn-link">Registration</button></NavLink></p>
+      <p className="text-center mb-2">OR</p>
+      <button onClick={handleSignInGoogle} className="btn btn-accent text-white mb-3 ml-28">SignUp With <FcGoogle></FcGoogle></button>
+      <ToastContainer />
+      </div>
     </div>
   </div>
 </div>
