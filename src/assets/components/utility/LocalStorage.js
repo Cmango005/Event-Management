@@ -1,16 +1,16 @@
-const getStoredProduct =()=>{
-    const storedProduct = localStorage.getItem('product-store');
-    if(storedProduct){
-        return JSON.parse(storedProduct);
+const getStoredEvent =()=>{
+    const storedEvent = localStorage.getItem('event-store');
+    if(storedEvent){
+        return JSON.parse(storedEvent);
     }
     return [];
 }
-const saveProduct =id =>{
- const storedProducts= getStoredProduct();
- const exists = storedProducts.find(productId=> productId===id);
+const saveEvent =id =>{
+ const storedEvents= getStoredEvent();
+ const exists = storedEvents.find(eventId=> eventId===id);
  if(!exists){ 
-    storedProducts.push(id);
-    localStorage.setItem('product-store', JSON.stringify(storedProducts));
+    storedEvents.push(id);
+    localStorage.setItem('event-store', JSON.stringify(storedEvents));
  }
 }
-export {getStoredProduct,saveProduct}
+export {getStoredEvent,saveEvent}

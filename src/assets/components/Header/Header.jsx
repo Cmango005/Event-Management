@@ -23,7 +23,7 @@ const Header = () => {
             <nav className="menu menu-horizontal gap-6  px-1">
               <NavLink to="/"><h3>Home</h3></NavLink> <br />
               <NavLink to="/gallery">Gallery</NavLink>
-              <NavLink to="/purchase">Purchased Items</NavLink>
+              <NavLink to="/events">Selected-Events</NavLink>
               <NavLink to="/review">Review</NavLink>
 
             </nav>
@@ -36,7 +36,7 @@ const Header = () => {
           <nav className="menu menu-horizontal gap-14 px-1">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/gallery">Gallery</NavLink>
-            <NavLink to="/purchase">Purchased Items</NavLink>
+            <NavLink to="/events">Selected-Events</NavLink>
             <NavLink to="/review">Review</NavLink>
 
           </nav>
