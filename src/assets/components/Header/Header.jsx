@@ -13,7 +13,7 @@ const Header = () => {
   }
  
   return (
-    <div className="navbar bg-base-100 mx-auto container">
+    <div className="navbar shadow-2xl bg-base-100 mx-auto container">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,7 +29,7 @@ const Header = () => {
             </nav>
           </ul>
         </div>
-        <img className="h-14 w-32" src="https://i.ibb.co/bFdsDdx/apple-logo-icon-168588.png" alt="" />
+        <img className="h-14 w-32 shadow-2xl" src="https://i.ibb.co/Q87jZLK/a7477f5b51e89856d0694d4c02dcd506.jpg" alt="" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

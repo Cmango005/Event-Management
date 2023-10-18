@@ -18,7 +18,7 @@ const Details = () => {
         <div className="container  mx-auto  p-16">
             <div className="flex ">
                 <div className=" flex flex-col items-center">
-                    <img className="w-9/12 h-full rounded-xl" src={detail.img} alt="" />
+                    <img className="w-5/6 h-3/4 lg:w-9/12 lg:h-full rounded-xl" src={detail.img} alt="" />
                 </div>
                 <div className="space-y-2">
                     <h3 className="font-bold text-4xl">
@@ -29,7 +29,8 @@ const Details = () => {
                     </p>
                     <p className="font-bold text-lg">
                         Our Services: {detail.service} <br />
-                        Entry Fee: {detail.entry_fee} $
+                        Entry Fee: {detail.entry_fee} $ 
+
                     </p>
                     <button onClick={handleJoin} className="btn btn-outline btn-error ">Join-Event</button>
                     <ToastContainer />

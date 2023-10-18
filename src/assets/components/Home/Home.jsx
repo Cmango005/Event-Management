@@ -16,7 +16,7 @@ const Home = () => {
                 <div className="mx-auto banner bg-no-repeat container mb-5 w-4/6">
                     <p data-aos="fade-down"
                         data-aos-easing="linear"
-                        data-aos-duration="1500" className='mt-48 mx-64 text-center font-bold text-xl text-white'>
+                        data-aos-duration="1500" className='mt-16 lg:mt-48 mx-64 text-center font-bold text-xl text-white'>
                         SCROLL DOWN EVENTS ARE COMING SOON..... <br /> JOIN ALL THE EVENTS
                     </p>
                 </div>
@@ -25,10 +25,10 @@ const Home = () => {
              <Marquee>
                 <p className='font-extrabold text-xl'>CLICK DETAILS TO SEE DETAILS AND JOIN OUR EVENTS HURRY UP TIME IS RUNNING FAST........</p>
              </Marquee>
-             <p className='text-center mt-10 text-4xl font-extrabold'>OUR EVENTS/SERVICES</p>
+             <p className='text-center mt-10 text-4xl font-extrabold'>OUR UPCOMING EVENTS/SERVICES</p>
              </div>
             <section data-aos="fade-up-right"
-                className=" mx-auto mb-10 container grid grid-cols-2 gap-4 ">
+                className=" mx-auto mb-10 container grid grid-cols-1 lg:grid-cols-2 gap-4 ">
                     
                
                {

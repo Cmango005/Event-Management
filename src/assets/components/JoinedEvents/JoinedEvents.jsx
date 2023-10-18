@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredEvent } from "../utility/LocalStorage";
-
+import { GiConfirmed } from 'react-icons/gi';
 
 const JoinedEvents = () => {
     const eitems = useLoaderData();
@@ -31,7 +31,7 @@ const JoinedEvents = () => {
                     <h2 className="font-bold text-lg">{eitem .name}</h2>
                     <h3 className="font-bold">
                      Entry Fee: ${eitem .entry_fee}
-                    </h3>
+                    </h3><GiConfirmed></GiConfirmed>
                     <p>Date: {eitem.date}</p>
                     <p>Location: {eitem.location}</p>
                   </div>
