@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/wSwCYNV/mg-4714-1-1567853432696.jpg",
+        "name": "Dhaka Food Festival",
+        "description": "A culinary extravaganza featuring a wide array of delicious dishes from various cuisines.",
+        "date": "2023-11-15 10:00 AM",
+        "service": "Food stalls, live music, and entertainment",
+        "entry_fee": 500,
+        "location": "Suhrawardy Udyan, Dhaka"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/3BryvSx/apex.webp",
+        "name": "Bangladesh Fashion Week",
+        "description": "A showcase of the latest fashion trends and designs by local and international designers.",
+        "date": "2023-12-05 08:00 PM",
+        "service": "Fashion shows, designer exhibitions, and workshops",
+        "entry_fee": 800,
+        "location": "Radisson Blu Dhaka , Dhaka"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/3k0JSf5/maxresdefault.jpg",
+        "name": "Dhaka International Film Festival",
+        "description": "A celebration of world cinema with screenings of diverse and thought-provoking films.",
+        "date": "2024-01-10 10:00 AM",
+        "service": "Film screenings, discussions, and filmmaker interactions",
+        "entry_fee": 300,
+        "location": "Star Cineplex, Dhaka"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/p2NW1gj/Colourful-Celebration-of-Poyla-Boishakh-Dhaka.jpg",
+        "name": "Bengali New Year Celebration",
+        "description": "Ring in the Bengali New Year with traditional music, dance, and cultural performances.",
+        "date": "2024-04-14 10:00 AM",
+        "service": "Cultural performances, traditional food, and crafts",
+        "entry_fee": 0,
+        "location":" Ramna Batamul,Dhaka"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/7S0BkP6/ICT-Expo1.jpg",
+        "name": "Bangladesh Tech Expo",
+        "description": "Explore the latest technological innovations and gadgets in the tech industry.",
+        "date": "2024-05-20 10:00 PM",
+        "service": "Tech product exhibitions, workshops, and tech talks",
+        "entry_fee": 250,
+        "location": "ICCB , Dhaka"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/bFqZqKv/The-Odyssey-Md-Tokon-Showcase-Magazine-2-min-1024x683.jpg",
+        "name": "Bangladesh Art Expo",
+        "description": "An exhibition showcasing the finest art and sculptures from Bangladesh.",
+        "date": "2023-11-20 04:00 PM",
+        "service": "Art displays, artist meet-and-greet, and art auctions",
+        "entry_fee": 300,
+        "location": "Bangla Academy, Dhaka"
+    }
+]

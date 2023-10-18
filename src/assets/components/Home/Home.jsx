@@ -1,52 +1,71 @@
-import Marquee from "react-fast-marquee";
-import './Facebook.css'
-import { Link } from "react-router-dom";
+
+import './Banner.css'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import {  useLoaderData } from 'react-router-dom';
+
+
 // ..
 AOS.init();
 const Home = () => {
+    const events = useLoaderData();
     return (
         <div>
-            <div className="flex mx-auto container mb-5 w-4/6">
-                <Link to="/iphone"><button className="btn btn-secondary w-28 hover:text-white hover:bg-red-600 "><span>Buy Now</span></button></Link>
-                <Marquee>
-                    <i className="font-bold text-2xl">Latest iPhone 15 Has Been Released .Buy Now.</i>
-                </Marquee>
-            </div>
+            <section className='flex justify-center items-center'>
+                <div className="mx-auto banner container mb-5 w-4/6">
+                    <p data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500" className='mt-48 mx-64 text-center font-bold text-xl text-white'>
+                        SCROLL DOWN EVENTS ARE COMING SOON..... <br /> JOIN ALL THE EVENTS
+                    </p>
+                </div>
+            </section>
+
             <section data-aos="fade-up-right"
-                className=" mx-auto mb-10 container">
-                <Link to="/service">
-                    <div className="service  bg-no-repeat">
-                        <p className="text-pink-400 p-6 ml-96 font-extrabold text-lg text-center "><i className="ml-6 p-6 bg-slate-200 rounded-lg">Click This Section to See Our Latest Gadgets</i></p>
-                    </div>
-                </Link>
+                className=" mx-auto mb-10 container grid grid-cols-2 gap-4 ">
+                {
+                    events.map(eitem => <div key={eitem.id} data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" className="card h-48 border-2 card-side bg-base-100 shadow-xl">
+                        <figure><img className='w-56 ml-3 rounded-xl' src={eitem.img} alt="Movie" /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">{eitem.name}</h2>
+                            <p>Location:{eitem.location}</p>
+                            <p>Date:{eitem.date}</p>
+
+                            <button className="btn btn-outline btn-success w-28  ml-44 ">Details</button>
+
+                        </div>
+                    </div>)
+                }
             </section>
-            <section data-aos="fade-up-left" className=" mx-auto mb-10 container">
-                <Link to="/review">
-                    <div className="review   bg-no-repeat">
-                        <p className="text-black p-5 font-extrabold text-lg text-center "><i>Click This Section to See Our Happy Customer</i></p>
+            <section>
+                <div className="hero min-h-screen bg-base-200">
+                    <div className="hero-content flex-col lg:flex-row-reverse">
+
+                        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                            <form className="card-body">
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text">Email</span>
+                                    </label>
+                                    <input type="email" placeholder="email" className="input input-bordered" required />
+                                </div>
+                                <div className="form-control">
+                                    <label className="label">Your Name:</label>
+                                    <input type="text" placeholder="name" id="name" className="input input-bordered" required />
+                                </div>
+                                <div className="form-control mt-6">
+                                    <button className="btn btn-primary">Submit Complain</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </Link>
+                </div>
             </section>
-            <section data-aos="fade-up-right" className=" mx-auto mb-10 container">
-                <div className="grid grid-cols-2">
-                <div className="card-body ">
-                <Link to='https://www.facebook.com/apple'>
-                    <div className="find-facebook h-screen bg-no-repeat">
-                        <p className="text-white p-5 font-extrabold text-2xl text-center ">Click to Find Us on Facebook</p>
-                    </div>
-                </Link>
-                </div>
-                <div className="card-body" >
-                <Link to='https://www.instagram.com/apple/'>
-                    <div className="find-instagram h-screen bg-no-repeat">
-                        <p className="text-white p-5 font-extrabold text-2xl text-center ">Click to Find Us on Instagram</p>
-                    </div>
-                </Link>
-                </div>
-                </div>
-            </section>
+
+
 
         </div>
     );

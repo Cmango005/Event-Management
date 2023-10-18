@@ -11,6 +11,7 @@ const Header = () => {
       .then()
       .catch()
   }
+ 
   return (
     <div className="navbar bg-base-100 mx-auto container">
       <div className="navbar-start">
@@ -37,32 +38,26 @@ const Header = () => {
             <NavLink to="/gallery">Gallery</NavLink>
             <NavLink to="/purchase">Purchased Items</NavLink>
             <NavLink to="/review">Review</NavLink>
-            
+
           </nav>
         </ul>
       </div>
+      
 
       {
         user ?
           <div className="navbar-end flex">
-            <div>
-              {user.email}
-            </div>
-            <div className="avatar online">
-              <div className="w-16 rounded-full">
-                <img src="https://i.ibb.co/Ybffmcv/6596121.png" alt="" />
-              </div>
-            </div>
-            
+           
+             <div className="flex items-center flex-row-reverse">
+             <h3 className="">{user.displayName}</h3>
+              <img className="w-16 rounded-full border-2" src={user.photoURL} alt="" />
+             </div>
+ 
             <button onClick={handleSignOut} className="btn btn-active btn-neutral hover:bg-orange-500 hover:text-white">LogOut</button>
           </div>
           :
           <div className="navbar-end flex">
-            <div className="avatar offline">
-              <div className="w-16 rounded-full">
-                <img src="https://i.ibb.co/Ybffmcv/6596121.png" />
-              </div>
-            </div>
+            
             <Link to='/login'><button className="btn btn-active btn-neutral hover:bg-orange-500 hover:text-white">LogIn</button></Link>
           </div>
       }
