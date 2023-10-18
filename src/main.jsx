@@ -43,8 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/gallery',
-        element: <PrivateRoute><Gallery></Gallery></PrivateRoute>,
-        
+        element: <Gallery></Gallery>,
       },
       {
         path: '/events',

@@ -5,7 +5,7 @@ const Review = () => {
     const customer =useLoaderData();
     return (
         <div className=" gap-10 mx-auto container mb-5">
-           <Marquee>
+           <Marquee >
            {
                 customer.map(user=> <div key={user.id} className="w-80 space-x-10"> 
                   <img className="w-72 h-56 ml-10 rounded-full" src={user.img} alt="" />
