@@ -16,7 +16,7 @@ const Home = () => {
                 <div className="mx-auto banner bg-no-repeat container mb-5 w-4/6">
                     <p data-aos="fade-down"
                         data-aos-easing="linear"
-                        data-aos-duration="1500" className='mt-16 lg:mt-48 mx-64 text-center font-bold text-xl text-white'>
+                        data-aos-duration="1500" className='mx-6 mt-48 lg:mx-64 text-center font-bold text-xl text-white'>
                         SCROLL DOWN EVENTS ARE COMING SOON..... <br /> JOIN ALL THE EVENTS
                     </p>
                 </div>
@@ -54,7 +54,7 @@ const Home = () => {
                     </div>
                     <div className="hero-content flex-col lg:flex-row-reverse">
 
-                        <div className=" flex-shrink-0 w-full bg-slate-100 mt-16 rounded-xl shadow-2xl p-5 ">
+                        <div className=" flex-shrink-0 w-full bg-slate-100  mt-16 rounded-xl shadow-2xl p-5 ">
                             <form className="">
                                 <div className='flex gap-4'>
                                     <div>
@@ -92,7 +92,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='mx-auto container p-10'>
+            <section className='mx-auto container p-1'>
                 <p className='text-center font-bold text-2xl'>WHY PEOPLE CHOOSE OUR EVENTS</p>
                 <div className="collapse w-full bg-red-200">
                     <input type="radio" name="my-accordion-1" checked="checked" />
